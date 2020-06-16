@@ -85,6 +85,7 @@ namespace Assets.Scripts
             }
 
             _clientStream = _client.GetStream();
+            _isDisconnect = false;
         }
 
         public void WriteToServer(string message)
